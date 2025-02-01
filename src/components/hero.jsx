@@ -3,6 +3,10 @@ import '../assets/styles/hero.css';
 
 import profileFront from '../assets/images/jdpixel-front.jpeg';
 import profileBack from '../assets/images/jdpixel-back.jpg';
+import facebook from '../assets/images/facebook.svg';
+import instagram from '../assets/images/instagram.svg';
+import linked from '../assets/images/linked.svg';
+
 
 const Hero = () => {
   const [flipped, setFlipped] = useState(false);
@@ -24,15 +28,15 @@ const Hero = () => {
       <p className='role'>Back-End Developer</p>
       <div className='socialIcons'>
         <a href="https://www.facebook.com/Jd.Delena21/" target="_blank" rel="noopener noreferrer" className='icon'>
-          <img className='social' src="src/assets/images/facebook.svg" alt="Facebook" />
+          <img className='social' src={facebook} alt="Facebook" />
           <p className='POP'>Facebook</p>
         </a>
         <a href="https://www.instagram.com/alymeeoow/" target="_blank" rel="noopener noreferrer" className='icon'>
-          <img className='social' src="src/assets/images/instagram.svg" alt="Instagram" />
+          <img className='social' src={instagram} alt="Instagram" />
           <p className='POP'>Instagram</p>
         </a>
         <a href="https://www.linkedin.com/in/jd-dele%C3%B1a-391220256/" target="_blank" rel="noopener noreferrer" className='icon'>
-          <img className='social' src="src/assets/images/linked.svg" alt="LinkedIn" />
+          <img className='social' src={linked} alt="LinkedIn" />
           <p className='POP'>LinkedIn</p>
         </a>
       </div>
