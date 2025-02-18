@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/styles/hero.css';
-import Header from './header';
+
 import profileFront from '../assets/images/jdpixel-front.jpeg';
 import profileBack from '../assets/images/jdpixel-back.jpg';
 import facebook from '../assets/images/facebook.svg';
@@ -18,7 +18,7 @@ const Hero = () => {
   return (
    
     <div className='container'>
-       <Header/>
+     
       <h1 className='greetings'>Good Day Friend!</h1>
       <div className='profileContainer' onClick={handleImageClick}>
         <div className={`flip-card ${flipped ? 'flipped' : ''}`}>
