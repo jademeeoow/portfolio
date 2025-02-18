@@ -32,8 +32,12 @@ const Header = () => {
         <ul>
           <li><a href="#aboutme" onClick={(e) => smoothScroll(e, 'aboutme', setMenuOpen)}>ABOUT ME</a></li>
           <li><a href="#whatido" onClick={(e) => smoothScroll(e, 'whatido', setMenuOpen)}>WHAT I DO</a></li>  
+        
           <li><a href="#projects" onClick={(e) => smoothScroll(e, 'projects', setMenuOpen)}>PROJECTS</a></li>
           <li><a href="#skills" onClick={(e) => smoothScroll(e, 'skills', setMenuOpen)}>SKILLS</a></li>
+          <li><a href="#blogs   " onClick={(e) => smoothScroll(e, 'blogs', setMenuOpen)}>BLOGS</a></li>
+          
+          
           <li><a href="#contact" onClick={(e) => smoothScroll(e, 'contact', setMenuOpen)}>CONTACT</a></li>
         </ul>
       </nav>
